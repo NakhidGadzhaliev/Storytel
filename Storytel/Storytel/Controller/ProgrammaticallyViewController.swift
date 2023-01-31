@@ -90,6 +90,8 @@ extension ProgrammaticallyViewController {
     private func buttonCreator(background: UIImage?) -> UIButton {
         let button = UIButton()
         button.setBackgroundImage(background, for: .normal)
+        button.titleLabel?.textAlignment = .center
+        button.titleLabel?.numberOfLines = 0
         button.translatesAutoresizingMaskIntoConstraints = false
         button.addTarget(self, action: #selector(choiceMade(sender: )), for: .touchUpInside)
         
