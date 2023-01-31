@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D09931522988B4560099CDC4 /* ProgrammaticallyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09931512988B4560099CDC4 /* ProgrammaticallyViewController.swift */; };
+		D09931542988B5140099CDC4 /* ProgrammaticallyStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09931532988B5140099CDC4 /* ProgrammaticallyStoryboard.storyboard */; };
+		D0DC217229889C6E00079B06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC217129889C6E00079B06 /* AppDelegate.swift */; };
+		D0DC217429889C6E00079B06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC217329889C6E00079B06 /* SceneDelegate.swift */; };
+		D0DC217629889C6E00079B06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC217529889C6E00079B06 /* ViewController.swift */; };
+		D0DC217929889C6E00079B06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DC217729889C6E00079B06 /* Main.storyboard */; };
+		D0DC217B29889C6F00079B06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DC217A29889C6F00079B06 /* Assets.xcassets */; };
+		D0DC217E29889C6F00079B06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0DC217C29889C6F00079B06 /* LaunchScreen.storyboard */; };
+		D0DC218929889F0B00079B06 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC218829889F0B00079B06 /* Story.swift */; };
+		D0DC218B29889F1300079B06 /* StoryBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC218A29889F1300079B06 /* StoryBrain.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D09931512988B4560099CDC4 /* ProgrammaticallyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticallyViewController.swift; sourceTree = "<group>"; };
+		D09931532988B5140099CDC4 /* ProgrammaticallyStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProgrammaticallyStoryboard.storyboard; sourceTree = "<group>"; };
+		D0DC216E29889C6E00079B06 /* Storytel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Storytel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0DC217129889C6E00079B06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0DC217329889C6E00079B06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D0DC217529889C6E00079B06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0DC217829889C6E00079B06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0DC217A29889C6F00079B06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0DC217D29889C6F00079B06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0DC217F29889C6F00079B06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0DC218829889F0B00079B06 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		D0DC218A29889F1300079B06 /* StoryBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBrain.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0DC216B29889C6E00079B06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0DC216529889C6E00079B06 = {
+			isa = PBXGroup;
+			children = (
+				D0DC217029889C6E00079B06 /* Storytel */,
+				D0DC216F29889C6E00079B06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0DC216F29889C6E00079B06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC216E29889C6E00079B06 /* Storytel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0DC217029889C6E00079B06 /* Storytel */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC217129889C6E00079B06 /* AppDelegate.swift */,
+				D0DC217329889C6E00079B06 /* SceneDelegate.swift */,
+				D0DC218729889E9300079B06 /* Model */,
+				D0DC218629889E8D00079B06 /* View */,
+				D0DC218529889E8100079B06 /* Controller */,
+				D0DC217A29889C6F00079B06 /* Assets.xcassets */,
+				D0DC217C29889C6F00079B06 /* LaunchScreen.storyboard */,
+				D0DC217F29889C6F00079B06 /* Info.plist */,
+			);
+			path = Storytel;
+			sourceTree = "<group>";
+		};
+		D0DC218529889E8100079B06 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC217529889C6E00079B06 /* ViewController.swift */,
+				D09931512988B4560099CDC4 /* ProgrammaticallyViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D0DC218629889E8D00079B06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC217729889C6E00079B06 /* Main.storyboard */,
+				D09931532988B5140099CDC4 /* ProgrammaticallyStoryboard.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0DC218729889E9300079B06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC218829889F0B00079B06 /* Story.swift */,
+				D0DC218A29889F1300079B06 /* StoryBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0DC216D29889C6E00079B06 /* Storytel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0DC218229889C6F00079B06 /* Build configuration list for PBXNativeTarget "Storytel" */;
+			buildPhases = (
+				D0DC216A29889C6E00079B06 /* Sources */,
+				D0DC216B29889C6E00079B06 /* Frameworks */,
+				D0DC216C29889C6E00079B06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Storytel;
+			productName = Storytel;
+			productReference = D0DC216E29889C6E00079B06 /* Storytel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0DC216629889C6E00079B06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D0DC216D29889C6E00079B06 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = D0DC216929889C6E00079B06 /* Build configuration list for PBXProject "Storytel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0DC216529889C6E00079B06;
+			productRefGroup = D0DC216F29889C6E00079B06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0DC216D29889C6E00079B06 /* Storytel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0DC216C29889C6E00079B06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DC217E29889C6F00079B06 /* LaunchScreen.storyboard in Resources */,
+				D09931542988B5140099CDC4 /* ProgrammaticallyStoryboard.storyboard in Resources */,
+				D0DC217B29889C6F00079B06 /* Assets.xcassets in Resources */,
+				D0DC217929889C6E00079B06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0DC216A29889C6E00079B06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DC218B29889F1300079B06 /* StoryBrain.swift in Sources */,
+				D0DC217629889C6E00079B06 /* ViewController.swift in Sources */,
+				D0DC217229889C6E00079B06 /* AppDelegate.swift in Sources */,
+				D0DC217429889C6E00079B06 /* SceneDelegate.swift in Sources */,
+				D09931522988B4560099CDC4 /* ProgrammaticallyViewController.swift in Sources */,
+				D0DC218929889F0B00079B06 /* Story.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0DC217729889C6E00079B06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0DC217829889C6E00079B06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0DC217C29889C6F00079B06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0DC217D29889C6F00079B06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0DC218029889C6F00079B06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0DC218129889C6F00079B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0DC218329889C6F00079B06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B7Y7QR66JR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Storytel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Storytel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0DC218429889C6F00079B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B7Y7QR66JR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Storytel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Storytel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0DC216929889C6E00079B06 /* Build configuration list for PBXProject "Storytel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DC218029889C6F00079B06 /* Debug */,
+				D0DC218129889C6F00079B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0DC218229889C6F00079B06 /* Build configuration list for PBXNativeTarget "Storytel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DC218329889C6F00079B06 /* Debug */,
+				D0DC218429889C6F00079B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0DC216629889C6E00079B06 /* Project object */;
+}
